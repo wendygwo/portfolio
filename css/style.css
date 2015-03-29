@@ -1,25 +1,45 @@
+/************************/
+/***   Text styling   ***/
+/************************/
 body{
 	margin: 0;
+/*	background-color: purple;*/
 }
 /*Site header styling*/
+.bodyText{
+	top: 50px;
+	position: relative;
+	width: 95%;
+	margin: 0 auto;
+}
+.sectionHeading{
+	text-align: center;
+}
 
-/*Navigation styling*/
+/************************/
+/*Navigation bar styling*/
+/************************/
 #navbarWhole{
 	height: 3em;
 	color: black;
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	width:100%;
+	background: white;
 }
 #nameMain{
 	font-size: 2.5em;
 	position: relative;
 	float: left;
-	width: 45%;
+	width: 40%;
 	height: 100%;
 	padding: 5px;
 }
 #rightNav{
 	position: relative;
 	float: right;
-	width:45%;
+	width:55%;
 	height: 100%;
 }
 nav{
@@ -31,26 +51,48 @@ nav{
 nav>a{
 	vertical-align: middle;
 	text-decoration: none;
+	color:black;
+	font-size: 1.3em;
 }
 nav>a:hover{
-	color: black;
+	color: blue;
 }
-/*Masthead styling*/
-
+a.anchor{
+	display: block;
+	position: relative;
+	top: -3em;
+	visibility: hidden;
+}
+/***************/
+/*Image styling*/
+/***************/
 #masthead{
 	background-image: url('../images/background-images/DSC_0926.JPG');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-	height: 400px;
+	height: 500px;
+	position: relative; /*Relative so that I can position my picture abswith absolute*/
+	top: 50px;
 }
 #mypicture{
 	background-image: url('../images/Wendy.jpeg');
 	background-size: contain;
 	background-repeat: no-repeat;
-	height: 15em;
-	width: 15em;
-	margin: 0 auto;
+	height: 20em;
+	width: 20em;
 	border-radius: 80%;
 	border: 4px solid white;
+	position: absolute;
+	top: 15%;
+	left: 37%;
+}
+#middleImage{
+	background-image: url('../images/background-images/DSC_0466.JPG');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 500px;
+	position: relative; /*Relative so that I can position my picture abswith absolute*/
+	top: 50px;
 }
