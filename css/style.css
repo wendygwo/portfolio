@@ -15,7 +15,15 @@ body{
 .sectionHeading{
 	text-align: center;
 }
-
+#contactMeLinks{
+	text-align: center;
+}
+#contactMeLinks>a{
+	color:black;
+}
+#contactMeLinks>a:hover{
+	color:gray;
+}
 /************************/
 /*Navigation bar styling*/
 /************************/
