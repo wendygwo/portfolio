@@ -11,7 +11,7 @@ section{
 #mastheadText{
 	color: white;
 	position: absolute;
-	bottom: 14em;
+	bottom: 10em;
 	z-index: 100;
 	font-size: 2em;
 	width: 100%;
