@@ -3,17 +3,38 @@
 /************************/
 body{
 	margin: 0;
-/*	background-color: purple;*/
+}
+/*Masthead text*/
+#mastheadText{
+	color: white;
+	position: absolute;
+	bottom: 7em;
+	z-index: 100;
+	font-size: 2em;
+	width: 100%;
+	text-align: center;
 }
 /*Site header styling*/
 .bodyText{
-	top: 50px;
 	position: relative;
+	top: 50px;
 	width: 95%;
 	margin: 0 auto;
 }
 .sectionHeading{
 	text-align: center;
+}
+.project{
+	height: 100%;
+	clear: both;
+}
+.projectText{
+	width:60%;
+	position: relative;
+	float: right;
+}
+.projectText>h2{
+	margin-top: 3px;
 }
 #contactMeLinks{
 	text-align: center;
@@ -75,32 +96,54 @@ a.anchor{
 /*Image styling*/
 /***************/
 #masthead{
-	background-image: url('../images/background-images/DSC_0926.JPG');
+	background-image: url('../images/background-images/laptop-on-wooden-table-notebook-coffee.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-	height: 500px;
-	position: relative; /*Relative so that I can position my picture abswith absolute*/
-	top: 50px;
+	height: 650px;
+	/*position: relative;*/ /*Relative so that I can position my picture abswith absolute*/
+	/*top: 50px;*/	
+}
+#mastheadCover{
+	width: 100%;
+	height: 100%;
+	opacity: 0.5;
+	background-color: gray;
 }
 #mypicture{
-	background-image: url('../images/Wendy.jpeg');
 	background-size: contain;
 	background-repeat: no-repeat;
-	height: 20em;
-	width: 20em;
-	border-radius: 80%;
-	border: 4px solid white;
-	position: absolute;
-	top: 15%;
-	left: 37%;
+	height: 10em;
+	width: 10em;
+	border-radius: 10%;
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
 }
 #middleImage{
-	background-image: url('../images/background-images/DSC_0466.JPG');
+	background-image: url('../images/background-images/bicycle-window-work-sign.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-	height: 500px;
+	height: 650px;
 	position: relative; /*Relative so that I can position my picture abswith absolute*/
 	top: 50px;
 }
+.projectImage{
+	height: 200px;
+	width: 30%;
+	display: inline-block;
+}
+#project01Image{
+	background-image: url('../images/Tic-tac-toe-screenshot.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 100%;
+}
+#project02Image{
+	background-image: url('../images/Dog-status-screenshot.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 100%;
+}
+

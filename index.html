@@ -7,86 +7,140 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 <body>
-	<!-- Navbar -->
-	<div id='navbarWhole'>
-		<div id='nameMain'>
-			Wendy Gwo
+	<div>
+		<!-- Navbar -->
+		<div id='navbarWhole'>
+			<div id='nameMain'>
+				Wendy Gwo
+			</div>
+			<div id='rightNav'>
+				<nav >
+					<a href='#about'>About Me | </a>
+					<a href='#portfolio'>Portfolio | </a>
+					<a href='#resume'>Resume |</a>
+					<a href='#contact'>Contact Me</a>
+				</nav>
+			</div>
+		</div> <!-- End navbar -->
+
+		<!-- Large picture on top -->
+		<div id='masthead'>
+			<div id='mastheadCover'>
+
+			</div>
 		</div>
-		<div id='rightNav'>
-			<nav >
-				<a href='#about'>About Me | </a>
-				<a href='#portfolio'>Portfolio | </a>
-				<a href='#resume'>Resume |</a>
-				<a href='#contact'>Contact Me</a>
-			</nav>
+		<div id='mastheadText'>
+			<h1>Hello World!</h1>
+			<h3>I'm Wendy. Web developer.</h3>
 		</div>
-	</div> <!-- End navbar -->
 
-	<!-- Large picture on top -->
-	<div id='masthead'>
-		<div id='mypicture'>	
+		<div class='bodyText'>
+			<!-- About me section -->
+			<section>
+				<!-- Anchor with offset to work with fixed navbar -->
+				<a class="anchor" id='about'></a>
+				<h2 class='sectionHeading'>About Me</h2>
+				<!-- <div> -->
+					<img src='images/Wendy.jpeg' id='mypicture'>
+				<!-- </div> -->
+				<p>I'm a Los Angeles-based web developer with 8 years of experience in electrical and systems engineering and engineering management. I'm currently a student in General Assembly's Web Development Immersive (WDI) bootcamp and have an affinity for Ruby on Rails and Javascript.</p>
+
+				<p>I'm passionate about technical products and their ability to make all aspects of consumers' lives easier and more efficient and am looking for opportunities to work with like-minded startups and individuals.</p>
+
+				<p>In my free time, I love being active and being outdoors. The personal achievements I'm proudest of are successfully summiting Mt. Kilimanjaro and completing a full marathon, the LA Marathon. When it's too cold or too dark to be outdoors, you can find me playing in co-ed dodgeball leagues throughout the LA area!</p>
+				
+				<p>I also love traveling internationally. My one new year's resolution each year is to visit another country and I've luckily been able to keep that up the last few years!</p>
+				
+			</section> <!-- End of about me section -->
 		</div>
-	</div>
 
+		<!-- Second picture -->
+		<div id='middleImage'>
+		</div>
 
-	<div class='bodyText'>
-		<!-- About me section -->
-		<section>
-			<!-- Anchor with offset to work with fixed navbar -->
-			<a class="anchor" id='about'></a>
-			<h2 class='sectionHeading'>About Me</h2>
-			<p>I'm a Los Angeles-based web developer with 8 years of experience in electrical and systems engineering and engineering management. I'm currently a student in General Assembly's Web Development Immersive (WDI) bootcamp and have an affinity for Ruby on Rails and Javascript.</p>
+		<div class='bodyText'>
+			<!-- Portfolio section -->
+			<section>
+				<!-- Anchor with offset to work with fixed navbar -->
+				<a class="anchor" id='portfolio'></a>
+				<h2 class='sectionHeading'>Portfolio</h2>
+				<!-- Tic tac toe project -->
+				<div class='project'>
+					<div class='projectImage'>
+						<a href='https://wendytictactoe.firebaseapp.com/' target='_blank'>
+							<div id='project01Image'>
+							</div>
+						</a>
+					</div>
+					<div class='projectText'>
+						<h2>Tic Tac Toe</h2>
+						<p>This project is an app that puts a beach spin on the class game of tic tac toe. It allows two players to play on different devices and provides a real-time gaming experience.</p>
+						<ul>Technologies:
+							<li>HTML5</li>
+							<li>CSS3</li>
+							<li>Javascript</li>
+							<li>Angular</li>
+							<li>Firebase</li>
+						</ul>
+					</div>
+				</div> <!-- End tic-tac-to project section -->
+				<!-- Tic tac toe project -->
+				<div class='project'>
+					<div class='projectImage'>
+						<a href='https://dogstatus.herokuapp.com' target='_blank'>
+							<div id='project02Image'>
+							</div>
+						</a>
+					</div>
+					<div class='projectText'>
+						<h2>Where My Dogs At?</h2>
+						<p>This project is an app that simplifies the lives of dog owners, especially households where multiple people care for the dog. The site gives users a centralized location where owners can check off caretaking actions, such as 'Fed breakfast?' for each dog in their list. Users can also add additional owners, for each dog they own, so that all concerned parties will see the latest updates for the dog.</p>
+						<ul>Technologies:
+							<li>Ruby on Rails</li>
+							<li>PostgreSQL</li>
+							<li>HTML5</li>
+							<li>CSS3</li>
+							<li>Javascript</li>
+						</ul>
+					</div>
+				</div> <!-- End Where My Dogs At project section -->
+			</section> <!-- End of portfolio section -->
+		</div>
 
-			<p>I'm passionate about technical products and their ability to make all aspects of consumers' lives easier and more efficient and am looking for opportunities to work with like-minded startups and individuals.</p>
+		<!-- Second picture -->
+		<div id='middleImage'>
+		</div>
 
-
-
-			<p>In my free time, I love being active and being outdoors. The personal achievements I'm proudest of are successfully summiting Mt. Kilimanjaro and completing a full marathon, the LA Marathon. When it's too cold or too dark to be outdoors, you can find me playing in co-ed dodgeball leagues throughout the LA area!</p>
-			<p>I also love traveling and photography, so all the pictures in my portfolio are pictures I've taken!</p>
-			
-		</section> <!-- End of about me section -->
-	</div>
-
-	<!-- Second picture -->
-	<div id='middleImage'>
-	</div>
-
-	<div class='bodyText'>
-		<!-- Portfolio section -->
-		<section>
-			<!-- Anchor with offset to work with fixed navbar -->
-			<a class="anchor" id='portfolio'></a>
-			<h2 class='sectionHeading'>Portfolio</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		</section> <!-- End of portfolio section -->
-		<!-- Resume section -->
-		<section>
-			<!-- Anchor with offset to work with fixed navbar -->
-			<a class="anchor" id='resume'></a>
-			<h2 class='sectionHeading'>Resume</h2>
-			<h3>Resume download coming soon!</h3>
-			<!-- Technical skills -->
-			<h4>Technical skills:</h4>
-			<p>Ruby on Rails; PostgreSQL; Heroku; HTML5; CSS; AngularJS; Bootstrap; JavaScript; Firebase; Bcrypt; Rspec: Github</p>
-		</section> <!-- End of portfolio section -->
-		<!-- Contact Me -->
-		<section id='contactMeLinks'>
-			<!-- Anchor with offset to work with fixed navbar -->
-			<a class="anchor" id='contact'></a>
-			<h2 class='sectionHeading'>Contact Me</h2>
-				<a href='https://github.com/wendygwo' target="_blank">
-					<i class="fa fa-github-square fa-3x"></i>
-				</a>
-				<a href='https://www.linkedin.com/in/wendygwo' target="_blank">
-					<i class="fa fa-linkedin-square fa-3x"></i>
-				</a>
-				<a href='https://twitter.com/wendygwo' target="_blank">
-					<i class="fa fa-twitter-square fa-3x"></i>
-				</a>
-				<a href='mailto:wendygwo@gmail.com' target="_blank">
-					<i class="fa fa-envelope-square fa-3x"></i>
-				</a>
-		</section> <!-- End of portfolio section -->
+		<div class='bodyText'>
+			<!-- Resume section -->
+			<section>
+				<!-- Anchor with offset to work with fixed navbar -->
+				<a class="anchor" id='resume'></a>
+				<h2 class='sectionHeading'>Resume</h2>
+				<h3>Resume download coming soon!</h3>
+				<!-- Technical skills -->
+				<h4>Technical skills:</h4>
+				<p>Ruby on Rails; PostgreSQL; Heroku; HTML5; CSS; AngularJS; Bootstrap; JavaScript; Firebase; Bcrypt; Rspec: Github</p>
+			</section> <!-- End of portfolio section -->
+			<!-- Contact Me -->
+			<section id='contactMeLinks'>
+				<!-- Anchor with offset to work with fixed navbar -->
+				<a class="anchor" id='contact'></a>
+				<h2 class='sectionHeading'>Contact Me</h2>
+					<a href='https://github.com/wendygwo' target="_blank">
+						<i class="fa fa-github-square fa-3x"></i>
+					</a>
+					<a href='https://www.linkedin.com/in/wendygwo' target="_blank">
+						<i class="fa fa-linkedin-square fa-3x"></i>
+					</a>
+					<a href='https://twitter.com/wendygwo' target="_blank">
+						<i class="fa fa-twitter-square fa-3x"></i>
+					</a>
+					<a href='mailto:wendygwo@gmail.com' target="_blank">
+						<i class="fa fa-envelope-square fa-3x"></i>
+					</a>
+			</section> <!-- End of portfolio section -->
+		</div>
 	</div>
 </body>
 </html>
