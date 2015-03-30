@@ -136,6 +136,7 @@ a.anchor{
 	height: 200px;
 	width: 30%;
 	display: inline-block;
+	float: left;
 }
 #project01Image{
 	background-image: url('../images/Tic-tac-toe-screenshot.png');
