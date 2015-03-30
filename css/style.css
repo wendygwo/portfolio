@@ -62,13 +62,16 @@ section{
 	background: white;
 }
 #nameMain{
-	font-size: 2.5em;
+	font-size: 2.1em;
 	position: relative;
 	float: left;
 	width: 40%;
 	height: 100%;
 	padding: 5px;
 }
+/*#nameMain>a{
+	font-size: 2.5em;
+}*/
 #rightNav{
 	position: relative;
 	float: right;
@@ -81,7 +84,7 @@ nav{
 	top: 35%;
 	text-align: right;
 }
-nav>a{
+a{
 	vertical-align: middle;
 	text-decoration: none;
 	color:black;
@@ -89,6 +92,12 @@ nav>a{
 }
 nav>a:hover{
 	color: blue;
+}
+.projectText>h2>a:hover{
+	color: blue;
+}
+a:visited{
+	color: black;
 }
 a.anchor{
 	display: block;
