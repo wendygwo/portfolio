@@ -9,12 +9,13 @@ section{
 }
 /*Masthead text*/
 #mastheadText{
-	color: white;
-	position: absolute;
-	bottom: 275px;
-	z-index: 100;
-	font-size: 200%;
 	width: 100%;
+	height: 650px;
+	position: absolute;
+	top:10px;
+	left:0;
+	color: white;
+	font-size: 200%;
 	text-align: center;
 }
 /*Site header styling*/
@@ -53,7 +54,7 @@ section{
 /*Navigation bar styling*/
 /************************/
 #navbarWhole{
-	height: 3em;
+	height: 53px;
 	color: black;
 	position: fixed;
 	z-index: 100;
@@ -105,24 +106,25 @@ a.anchor{
 	top: -3em;
 	visibility: hidden;
 }
+a.collab{
+	font-size: 1em;
+}
 /***************/
 /*Image styling*/
 /***************/
 #masthead{
+	position: relative;
+	top: 53px;
+}
+#mastheadCover{
 	background-image: url('../images/background-images/laptop-on-wooden-table-notebook-coffee.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-	height: 650px;
 	background-position: center;
-	/*position: relative;*/ /*Relative so that I can position my picture abswith absolute*/
-	/*top: 50px;*/	
-}
-#mastheadCover{
+	opacity: 0.7;
+	height: 650px;
 	width: 100%;
-	height: 100%;
-	opacity: 0.5;
-	background-color: gray;
 }
 #mypicture{
 	background-size: cover;
