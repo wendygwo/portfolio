@@ -51,7 +51,7 @@ section{
 	color:#A5A5A5;
 }
 .resume{
-	width: 70%;
+	width: 60%;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -225,4 +225,5 @@ a.collab{
 }
 #resumeImage{
 	max-width: 100%;
+	border: 2px solid #A5A5A5;
 }
